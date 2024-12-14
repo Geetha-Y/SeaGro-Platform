@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaGro - Full Stack Platform</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CDN for responsiveness and styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color:palevioletred;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: pink;
+    }
+    .navbar .nav-link {
+      color:pink;
+    }
+    .navbar .nav-link:hover {
+      color:pink;
+    }
+
+    /* Hero Section */
+    #hero {
+      background-color: peachpuff; /* Hero section background */
+      color: lightcoral;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    /* Profile Section */
+    #profile {
+      background-color: papayawhip; /* Profile section background */
+      padding: 40px 0;
+    }
+
+    /* Job Board Section */
+    #jobs {
+      background-color: papayawhip; /* Job board section background */
+      padding: 40px 0;
+    }
+
+    /* Learning Center Section */
+    #learning {
+      background-color: papayawhip; /* Learning center section background */
+      padding: 40px 0;
+    }
+
+    /* Community Section */
+    #community {
+      background-color: papayawhip; /* Community section background */
+      padding: 40px 0;
+    }
+
+    /* Bike Sharing Section */
+    #bike-sharing {
+      background-color: papayawhip; /* Bike sharing section background */
+      padding: 40px 0;
+    }
+
+    /* Tech News Section */
+    #news {
+      background-color: papayawhip; /* Tech news section background */
+      padding: 40px 0;
+    }
+
+    /* Chat Section */
+    #chat {
+      background-color:papayawhip; /* Chat section background */
+      padding: 40px 0;
+    }
+
+    /* Content Sharing Section */
+    #content-sharing {
+      background-color: papayawhip; /* Content sharing section background */
+      padding: 40px 0;
+    }
+
+    /* To-Do List Section */
+    #todo {
+      background-color:papayawhip; /* To-Do list section background */
+      padding: 40px 0;
+    }
+
+    .card-body {
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background-color:plum;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Custom styling for sections */
+    .section-title {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .card-title {
+      font-weight: 500;
+    }
+
+    /* To-do List */
+    .todo-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .todo-item {
+      background-color: paleturquoise;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+
+    /* Chat */
+    #chat-box {
+      height: 300px;
+      overflow-y: auto;
+      background-color: paleturquoise;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">SeaGro</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#profile">User Profiles</a></li>
+        <li class="nav-item"><a class="nav-link" href="#jobs">Job Board</a></li>
+        <li class="nav-item"><a class="nav-link" href="#learning">Learning Center</a></li>
+        <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+        <li class="nav-item"><a class="nav-link" href="#bike-sharing">Bike Sharing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#news">Tech News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#chat">Chat</a></li>
+        <li class="nav-item"><a class="nav-link" href="#content-sharing">Content Sharing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#todo">To-Do List</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="container-fluid" style="padding-top: 80px;">
+  <div id="hero">
+    <h1>Welcome to SeaGro</h1>
+    <p>Your one-stop platform for Jobs, Learning, Socializing, and More!</p>
+  </div>
+</section>
+
+<!-- User Profiles -->
+<section id="profile" class="container my-5">
+  <h2 class="section-title">User Profiles</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">John Doe</h5>
+      <p>Email: john@example.com</p>
+      <p>Role: Developer</p>
+    </div>
+  </div>
+</section>
+
+<!-- Job Board -->
+<section id="jobs" class="container my-5">
+  <h2 class="section-title">Job Board</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Frontend Developer</h5>
+      <p>Company: ABC Corp.</p>
+      <button class="btn btn-primary">Apply Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Learning Center -->
+<section id="learning" class="container my-5">
+  <h2 class="section-title">Learning Center</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Learn Web Development</h5>
+      <p>Free courses on web development basics, including HTML, CSS, and JavaScript.</p>
+      <button class="btn btn-primary">Start Learning</button>
+    </div>
+  </div>
+</section>
+
+<!-- Community -->
+<section id="community" class="container my-5">
+  <h2 class="section-title">Community</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Join the SeaGro Community</h5>
+      <p>Discuss ideas, share experiences, and collaborate on projects.</p>
+      <button class="btn btn-primary">Join Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Bike Sharing -->
+<section id="bike-sharing" class="container my-5">
+  <h2 class="section-title">Bike Sharing</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Book a Bike</h5>
+      <p>Available bikes in your area.</p>
+      <button class="btn btn-primary">Book Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Tech News -->
+<section id="news" class="container my-5">
+  <h2 class="section-title">Daily Tech News</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Tech Innovations in 2024</h5>
+      <p>Stay up to date with the latest trends in technology.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Chat -->
+<section id="chat" class="container my-5">
+  <h2 class="section-title">Chat</h2>
+  <div id="chat-box">
+    <div class="chat-message">John: Hello, how are you?</div>
+    <div class="chat-message">Jane: I'm good, thanks! How about you?</div>
+  </div>
+  <textarea id="chat-input" class="form-control" placeholder="Type your message"></textarea>
+  <button class="btn btn-primary mt-2" onclick="sendMessage()">Send</button>
+</section>
+
+<!-- Content Sharing -->
+<section id="content-sharing" class="container my-5">
+  <h2 class="section-title">Content Sharing</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Share Your Photos and Videos</h5>
+      <input type="file" class="form-control">
+      <button class="btn btn-primary mt-2">Upload</button>
+    </div>
+  </div>
+</section>
+
+<!-- To-Do List -->
+<section id="todo" class="container my-5">
+  <h2 class="section-title">To-Do List</h2>
+  <ul class="todo-list" id="todo-list">
+    <li class="todo-item">Buy groceries</li>
+    <li class="todo-item">Complete SeaGro project</li>
+  </ul>
+  <input type="text" id="todo-input" class="form-control" placeholder="Add new task">
+  <button class="btn btn-primary mt-2" onclick="addTodo()">Add Task</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 SeaGro. All Rights Reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script>
+  function sendMessage() {
+    const chatInput = document.getElementById('chat-input').value;
+    if (chatInput) {
+      const chatBox = document.getElementById('chat-box');
+      const message = document.createElement('div');
+      message.classList.add('chat-message');
+      message.textContent = `You: ${chatInput}`;
+      chatBox.appendChild(message);
+      chatBox.scrollTop = chatBox.scrollHeight;
+      document.getElementById('chat-input').value = '';
+    }
+  }
+
+  function addTodo() {
+    const todoInput = document.getElementById('todo-input').value;
+    if (todoInput) {
+      const todoList = document.getElementById('todo-list');
+      const todoItem = document.createElement('li');
+      todoItem.classList.add('todo-item');
+      todoItem.textContent = todoInput;
+      todoList.appendChild(todoItem);
+      document.getElementById('todo-input').value = '';
+    }
+  }
+</script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
